@@ -6,14 +6,10 @@ import GridBoard from './components/GridBoard'
 import MessagePopup from './components/MessagePopup'
 import NextBlock from './components/NextBlock'
 import ScoreBoard from './components/ScoreBoard'
-import { configureStore } from '@reduxjs/toolkit'
+import { configureStore, createStore } from '@reduxjs/toolkit'
 import reducers from './reducers'
 
-const store = configureStore({
-  reducer: {
-    reducers
-  }
-})
+const store = createStore(reducers)
 
 function App() {
 
