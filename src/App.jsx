@@ -2,6 +2,7 @@
 import './App.css'
 import Controls from './components/Controls'
 import GridBoard from './components/GridBoard'
+import MessagePopup from './components/MessagePopup'
 import NextBlock from './components/NextBlock'
 import ScoreBoard from './components/ScoreBoard'
 
@@ -16,6 +17,7 @@ function App() {
       <NextBlock></NextBlock>
       <ScoreBoard></ScoreBoard>
       <Controls></Controls>
+      <MessagePopup></MessagePopup>
     </div>
   )
 }
