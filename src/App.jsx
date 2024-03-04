@@ -1,24 +1,35 @@
 
+import { Provider } from 'react-redux'
 import './App.css'
 import Controls from './components/Controls'
 import GridBoard from './components/GridBoard'
 import MessagePopup from './components/MessagePopup'
 import NextBlock from './components/NextBlock'
 import ScoreBoard from './components/ScoreBoard'
+import { configureStore } from '@reduxjs/toolkit'
+import reducers from './reducers'
+
+const store = configureStore({
+  reducer: {
+    reducers
+  }
+})
 
 function App() {
 
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <h1 className='App-title'>USK-Tetris: Muhammad Rayhan Gustiar (0618101050)</h1>
-      </header>
-      <GridBoard></GridBoard>
-      <NextBlock></NextBlock>
-      <ScoreBoard></ScoreBoard>
-      <Controls></Controls>
-      <MessagePopup></MessagePopup>
-    </div>
+    <Provider store={store}>
+      <div className='App'>
+        <header className='App-header'>
+          <h1 className='App-title'>USK-Tetris: Muhammad Rayhan Gustiar (0618101050)</h1>
+        </header>
+        <GridBoard></GridBoard>
+        <NextBlock></NextBlock>
+        <ScoreBoard></ScoreBoard>
+        <Controls></Controls>
+        <MessagePopup></MessagePopup>
+      </div>
+    </Provider>
   )
 }
 
