@@ -1,8 +1,18 @@
-# React + Vite
+**Repositori USK-Tetris**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Halaman ini merupakan repositori milik Muhammad Rayhan Gustiar (0618101050) untuk menyelesaikan mata kuliah Game Programming II.
 
-Currently, two official plugins are available:
+Untuk mengunduh secara lokal ke komputer anda, pastikan anda memiliki:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - [Node.js](https://nodejs.org/en)
+ - Web browser
+ - Koneksi internet
+ 
+ Jika sudah, silahkan clone repositori ini dengan mengcopy-paste code ini 
+ `git clone https://github.com/dedotikea/USK-Tetris.git`
+
+Buka file explorer, buka cmd atau gitbash pada folder tujuan, lalu masukkan code tersebut.
+
+Setelah itu, lakukan `cd USK-Tetris`, lalu install semua packagenya dengan `npm install`
+
+Untuk menjalankan secara lokal, lakukan command `npm run dev`, web-app akan dijalankan pada alamat `http://localhost:5173/`
