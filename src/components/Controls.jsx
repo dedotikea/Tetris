@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 
 const Controls = (props) => {
     const dispatch = useDispatch()
-    const isRunning = useSelector((state) => state.isRunning)
+    const isRunning = useSelector((state) => state.game.isRunning)
     const gameOver = useSelector((state) => state.game.gameOver)
     return (
         <div className="controls">
