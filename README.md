@@ -1,4 +1,4 @@
-**Repositori USK-Tetris**
+# Repositori USK-Tetris
 
 Halaman ini merupakan repositori milik Muhammad Rayhan Gustiar (0618101050) untuk menyelesaikan mata kuliah Game Programming II.
 
@@ -13,6 +13,12 @@ Untuk mengunduh secara lokal ke komputer anda, pastikan anda memiliki:
 
 Buka file explorer, buka cmd atau gitbash pada folder tujuan, lalu masukkan code tersebut.
 
-Setelah itu, lakukan `cd USK-Tetris`, lalu install semua packagenya dengan `npm install`
+Setelah itu, lakukan `cd USK-Tetris`, 
 
-Untuk menjalankan secara lokal, lakukan command `npm run dev`, web-app akan dijalankan pada alamat `http://localhost:5173/`
+lalu install semua packagenya dengan `npm install`
+
+Untuk menjalankan secara lokal, lakukan command 
+`npm run dev`, 
+
+web-app akan dijalankan pada alamat 
+`http://localhost:5173/`
