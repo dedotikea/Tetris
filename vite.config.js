@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/USK-Tetris/'
+  base: 'https://dedotikea.github.io/USK-Tetris/'
 })
