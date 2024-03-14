@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { pause, resume, restart } from '../actions'
+import completeSound from "../assets/sounds/soft-hitfinish.mp3"
+import useSound from 'use-sound'
 
 const ScoreBoard = (props) => {
     const dispatch = useDispatch()
     const game = useSelector((state) => state.game)
     const { score, isRunning, gameOver } = game
+    const [playCompleteSound] = useSound(completeSound)
+    useEffect(() => {
+        playCompleteSound()
+    }, [score])
 
     return (
         <div className="score-board">
