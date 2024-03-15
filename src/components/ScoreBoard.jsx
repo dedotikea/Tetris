@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { pauseGame, resume, restart } from '../actions'
 import completeSound from "../assets/sounds/soft-hitfinish.mp3"
-import bgmSound from "../assets/sounds/bgm.mp3"
 import useSound from 'use-sound'
 
 const ScoreBoard = (props) => {
@@ -49,7 +48,7 @@ const ScoreBoard = (props) => {
             <button className="score-board-button" onClick={(e) => {
                 dispatch(restart())
             }}>Restart</button>
-            <audio ref={audioRef} src={bgmSound}></audio>
+            <audio ref={audioRef} src="https://dedotikea.s-ul.eu/LBt9tP64"></audio>
             {isBgmPlaying ? (
                 <button onClick={pauseBgm} className="score-board-button">
                     Music: Playing
