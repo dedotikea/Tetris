@@ -1,6 +1,6 @@
 import {
     MOVE_RIGHT, MOVE_LEFT, MOVE_DOWN, ROTATE,
-    PAUSE, RESUME, RESTART, GAME_OVER
+    PAUSEGAME, RESUME, RESTART, GAME_OVER
 } from '../actions'
 import { defaultState, nextRotation, canMoveTo, addBlockToGrid, checkRows, randomShape } from '../utils'
 
@@ -74,7 +74,7 @@ const gameReducer = (state = defaultState(), action) => {
 
             return { ...state, isRunning: true }
 
-        case PAUSE:
+        case PAUSEGAME:
 
             return { ...state, isRunning: false }
 

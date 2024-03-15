@@ -1,4 +1,4 @@
-export const PAUSE = "PAUSE"       // Pause the game
+export const PAUSEGAME = "PAUSEGAME"       // Pause the game
 export const RESUME = "RESUME"      // Resume a paused game
 export const MOVE_LEFT = "MOVE_LEFT"   // Move piece left
 export const MOVE_RIGHT = "MOVE_RIGHT"  // Move piece right
@@ -23,8 +23,8 @@ export const moveDown = () => {
     return { type: MOVE_DOWN }
 }
 
-export const pause = () => {
-    return { type: PAUSE }
+export const pauseGame = () => {
+    return { type: PAUSEGAME }
 }
 
 export const resume = () => {
