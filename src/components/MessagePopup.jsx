@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 
+//popup buat status pause atau game over
 const MessagePopup = (props) => {
     const isRunning = useSelector((state) => state.game.isRunning)
     const gameOver = useSelector((state) => state.game.gameOver)

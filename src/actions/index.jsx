@@ -1,10 +1,10 @@
-export const PAUSEGAME = "PAUSEGAME"       // Pause the game
-export const RESUME = "RESUME"      // Resume a paused game
-export const MOVE_LEFT = "MOVE_LEFT"   // Move piece left
-export const MOVE_RIGHT = "MOVE_RIGHT"  // Move piece right
-export const ROTATE = "ROTATE"      // Rotate piece
-export const MOVE_DOWN = "MOVE_DOWN"   // Move piece down
-export const GAME_OVER = "GAME_OVER"   // The game is over
+export const PAUSEGAME = "PAUSEGAME"       // Pause
+export const RESUME = "RESUME"      // Resume
+export const MOVE_LEFT = "MOVE_LEFT"   // Gerak tetromino ke kiri
+export const MOVE_RIGHT = "MOVE_RIGHT"  // Gerak tetromino ke kanan
+export const ROTATE = "ROTATE"      // Putar tetromino searah jarum jam
+export const MOVE_DOWN = "MOVE_DOWN"   // Gerak tetromino ke bawah 1 blok
+export const GAME_OVER = "GAME_OVER"   // Game over
 export const RESTART = "RESTART"     // Restart Game
 
 export const moveRight = () => {
