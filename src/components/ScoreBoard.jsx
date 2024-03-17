@@ -8,11 +8,7 @@ const ScoreBoard = (props) => {
     const dispatch = useDispatch()
     const game = useSelector((state) => state.game)
     const { score, isRunning, gameOver } = game
-
     const [playCompleteSound] = useSound(completeSound)
-
-    // const bgmAudio = useRef(new Audio(bgmSound)).current
-    // bgmAudio.load()
     const [isBgmPlaying, setIsBgmPlaying] = useState(false)
     const audioRef = useRef()
 
@@ -29,9 +25,6 @@ const ScoreBoard = (props) => {
     useEffect(() => {
         playCompleteSound()
     }, [score])
-
-
-
 
     return (
         <div className="score-board">
