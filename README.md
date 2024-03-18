@@ -5,7 +5,7 @@ Halaman ini merupakan repositori milik saya (Muhammad Rayhan Gustiar [0618101050
 Untuk menjalankan secara lokal ke komputer anda, pastikan anda memiliki:
 
  - [Node.js](https://nodejs.org/en)
- - git
+ - [git](https://git-scm.com/)
  - Web browser
  - Koneksi internet
  
@@ -38,9 +38,9 @@ This page is my (Muhammad Rayhan Gustiar [0618101050]) repository for completing
 To run it locally on your computer, make sure you have these installed:
 
  - [Node.js](https://nodejs.org/en)
- - git
+ - [git](https://git-scm.com/)
  - Web browser
- - Koneksi internet
+ - Internet Connection
  
  If you already have all of the requirements, open the terminal in your desired folder, and run this code:
 
