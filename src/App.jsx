@@ -17,7 +17,7 @@ function App() {
     <Provider store={store}>
       <div className='App'>
         <header className='App-header'>
-          <h4 className='App-title'>USK-Tetris: Muhammad Rayhan Gustiar (0618101050)</h4>
+          <h4 className='App-title'>USK-Game Programming II{<br/>}Muhammad Rayhan Gustiar (0618101050)</h4>
         </header>
         <GridBoard></GridBoard>
         <NextBlock></NextBlock>
